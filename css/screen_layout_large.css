@@ -18,7 +18,7 @@ nav {
   width: 100%;
   display: block;
   position: absolute;
-  background-color: #a6430a;
+  background-color: #ffcc00;
 }
 
 /* Layout Large Screens (default for older browsers) */
@@ -30,9 +30,14 @@ header {
 
 header a.logo {
   width: 150px;
-  height: 85px;
+  height: 77px;
   top: 28px;
   right: 30px;
+  background-color: #fff;
+  background-color: rgba(255,255,255,.6);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   background-image: url(../images/logo_large.png);
 }
 
@@ -61,6 +66,7 @@ nav {
 
 nav a {
   margin: 12px 0px 10px 20px;
+  color: #336600;
 }
 
 @media screen and (max-width:990px){

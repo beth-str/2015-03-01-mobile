@@ -99,6 +99,7 @@ a.cta:hover {
 nav a {
   color: #fff;
   text-transform: uppercase;
+  letter-spacing: 1px;
   text-decoration: none;
   display: inline-block;
   font-weight: bold;
